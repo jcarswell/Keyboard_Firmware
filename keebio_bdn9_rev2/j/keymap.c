@@ -35,7 +35,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LEFT, KC_DOWN, KC_RIGHT
     ),
     [_TOGGLE] = LAYOUT(
-        KC_NO,       KC_NO,    KC_NO,
+        RESET,       EEP_RST,  KC_NO,
         RCS(KC_ESC), KC_NO,    TO(_BASE),
         TO(_MOUSE),  TO(_RGB), TO(_BASE)
     ),
