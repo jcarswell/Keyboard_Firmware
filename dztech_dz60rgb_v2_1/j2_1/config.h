@@ -1,0 +1,1 @@
+#undef RGB_MATRIX_ENABLE
