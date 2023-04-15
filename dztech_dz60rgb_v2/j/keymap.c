@@ -30,8 +30,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		    _______,         _______, _______,         _______, _______, _______, _______, _______, KC_HOME, KC_END,  _______,         KC_VOLU,          KC_INS,
 			_______,         _______, _______,                           KC_MPLY,                   _______, _______, KC_MPRV,         KC_VOLD,          KC_MNXT),
 		[_MOD1] = LAYOUT( /* CONTROL */
-			_______,         KC_F1,       KC_F2,       KC_F3,       KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,      KC_F11,  KC_F12, _______,
-			_______,         TO(_QWERTY), _______,     _______,     _______, RGB_TOG, RGB_HUI, RGB_SAI, RGB_VAI, RGB_SPI, RGB_MOD,     _______, _______, QK_REBOOT,
+			_______,         KC_F1,       KC_F2,       KC_F3,       KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,      KC_F11,  KC_F12,  _______,
+			_______,         TO(_QWERTY), _______,     _______,     _______, RGB_TOG, RGB_HUI, RGB_SAI, RGB_VAI, RGB_SPI, RGB_MOD,     _______, QK_BOOT, QK_REBOOT,
 			_______,         _______,     TO(_DVORAK), _______,     _______, _______, RGB_HUD, RGB_SAD, RGB_VAD, RGB_SPD, RGB_RMOD,    _______,          EE_CLR,
 			_______,         _______,     _______,     TO(_COLMAK), _______, _______, _______, _______, _______, _______, _______,     _______,          _______,
 			_______,         _______,     _______,                           _______,                   _______, _______, _______,     _______,          _______),
